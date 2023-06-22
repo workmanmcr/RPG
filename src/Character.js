@@ -8,7 +8,9 @@ export default class Character {
     }
 
     calculateScore(stat, bossPref, category) {
-        return;
+        let score = this.stats[stat] * bossPref;
+    
+        return score;
     }
   }
 
