@@ -1,4 +1,4 @@
-import Character from '../src/Character';
+import { Character, NineToFiver } from '../src/Character';
 
 describe("Character", () => {
   test('it should create a character with core stats', () =>  {
@@ -46,5 +46,18 @@ describe("Character", () => {
     const hack = character.calculateScore(stat, bossPref, category).toString();
     expect(hack).toMatch(/[4-9]/);
  })
+ 
 
 });
+
+describe("NineToFiver", () => {
+    test('it should create a ninetofiver character with core stats', () =>  {
+        const character = new NineToFiver();
+        expect(character.type).toBe('Nine to Fiver');
+        expect(character.stats.int).toBe(7);
+        expect(character.stats.comp).toBe(5);
+        expect(character.stats.charm).toBe(2);
+        expect(character.strength).toBe("long");
+        expect(character.score).toBe(0);
+      });
+})

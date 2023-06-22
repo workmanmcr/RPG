@@ -1,5 +1,5 @@
 
-export default class Character {
+export class Character {
     constructor() { 
       this.type = '';
       this.stats = {int: 0, comp: 0, charm: 0,};
@@ -15,7 +15,16 @@ export default class Character {
         }
         return score;
     }
-  }
+}
+
+export class NineToFiver extends Character {
+    constructor() {
+        super();
+        this.type = 'Nine to Fiver';
+        this.stats = {int: 7, comp: 5, charm: 2};
+        this.strength = 'long';
+    }
+}
 
 //character option: 
 // 1. The 9-to-5er int=7 comp=5 charm=2 (stronger with long repetitive tasks)

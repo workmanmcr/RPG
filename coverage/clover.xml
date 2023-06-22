@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687476123486" clover="3.2.0">
-  <project timestamp="1687476123487" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="15" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+<coverage generated="1687476685665" clover="3.2.0">
+  <project timestamp="1687476685665" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="20" coveredelements="20" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="Character.js" path="C:\Users\INTEL 10700K\Desktop\RPG\src\Character.js">
-      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
       <line num="11" count="3" type="stmt"/>
       <line num="12" count="3" type="cond" truecount="4" falsecount="0"/>
       <line num="13" count="2" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
