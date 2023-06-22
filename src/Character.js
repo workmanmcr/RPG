@@ -13,7 +13,6 @@ export default class Character {
             let bonus = Math.floor(Math.random() * 6) + 1;
             return score + bonus
         }
-    
         return score;
     }
   }

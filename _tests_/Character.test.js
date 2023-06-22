@@ -33,5 +33,18 @@ describe("Character", () => {
     const category = "social";
     const hack = character.calculateScore(stat, bossPref, category).toString();
     expect(hack).toMatch(/[4-9]/);
-})
+});
+ test ("it should calculate the score with bonus if the strength is equal to 'all' ", () => {
+    const character = new Character();
+    character.stats.int = 1;
+    character.stats.comp = 1;
+    character.stats.charm = 1;
+    character.strength = "all";
+    const stat = 'comp';
+    const bossPref = 3;
+    const category = "technical";
+    const hack = character.calculateScore(stat, bossPref, category).toString();
+    expect(hack).toMatch(/[4-9]/);
+ })
+
 });
