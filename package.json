@@ -1,7 +1,7 @@
 {
-  "name": "shape-tracker",
+  "name": "rpg",
   "version": "1.0.0",
-  "description": "",
+  "description": "**This was written for Node version 16, if you have a different version of Node, this will not work. See the bottom of this file for more information**",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -28,5 +28,13 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workmanmcr/RPG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/workmanmcr/RPG/issues"
+  },
+  "homepage": "https://github.com/workmanmcr/RPG#readme"
 }
