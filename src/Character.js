@@ -9,6 +9,10 @@ export default class Character {
 
     calculateScore(stat, bossPref, category) {
         let score = this.stats[stat] * bossPref;
+        // if (category === this.strength) {
+        //     let bonus = Math.floor(Math.random() * 6) + 1;
+        //     return score + bonus
+        // }
     
         return score;
     }
