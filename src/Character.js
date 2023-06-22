@@ -6,7 +6,11 @@ export default class Character {
       this.strength = '';
       this.score = 0;
     }
-}
+
+    calculateScore(stat, bossPref, category) {
+        return;
+    }
+  }
 
 //character option: 
 // 1. The 9-to-5er int=7 comp=5 charm=2 (stronger with long repetitive tasks)
