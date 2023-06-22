@@ -1,6 +1,11 @@
 
 export default class Character {
-    constructor() { }
+    constructor() { 
+      this.type = '';
+      this.stats = {int: 0, comp: 0, charm: 0,};
+      this.strength = '';
+      this.score = 0;
+    }
 }
 
 //character option: 
